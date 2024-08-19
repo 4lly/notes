@@ -1,3 +1,13 @@
+/*
+ * @Author: cirs
+ * @Date: 2024-08-19 21:24:36
+ * @LastEditors: cirs
+ * @LastEditTime: 2024-08-19 21:32:43
+ * @FilePath: /notes/面试题/八股文/react/Redux.js
+ * @Description: 
+ * 
+ */
+
 /**
  * 1、Redux
  * 基本概念
