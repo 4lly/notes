@@ -1,0 +1,1 @@
+// 使用input 接受大文件，file.slice 进行分割分块上传，最后 promise.all 运行回调函数
