@@ -1,0 +1,73 @@
+{
+  "hash": "d0e11494",
+  "configHash": "4ce6e031",
+  "lockfileHash": "59cfd334",
+  "browserHash": "9bfaabff",
+  "optimized": {
+    "axios": {
+      "src": "../../node_modules/.pnpm/axios@1.7.7/node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "0c78cb0b",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../node_modules/.pnpm/element-plus@2.8.2_vue@3.5.4_typescript@5.6.2_/node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "f034ba74",
+      "needsInterop": false
+    },
+    "mockjs": {
+      "src": "../../node_modules/.pnpm/mockjs@1.1.0/node_modules/mockjs/dist/mock.js",
+      "file": "mockjs.js",
+      "fileHash": "0ee83ef3",
+      "needsInterop": true
+    },
+    "pinia": {
+      "src": "../../node_modules/.pnpm/pinia@2.2.2_typescript@5.6.2_vue@3.5.4_typescript@5.6.2_/node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "dffbb160",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../node_modules/.pnpm/vue@3.5.4_typescript@5.6.2/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "525755c4",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/.pnpm/vue-router@4.4.4_vue@3.5.4_typescript@5.6.2_/node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "19cfaa14",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../node_modules/.pnpm/@element-plus+icons-vue@2.3.1_vue@3.5.4_typescript@5.6.2_/node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "03eef41b",
+      "needsInterop": false
+    },
+    "path-browserify": {
+      "src": "../../node_modules/.pnpm/path-browserify@1.0.1/node_modules/path-browserify/index.js",
+      "file": "path-browserify.js",
+      "fileHash": "39577776",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-BPR5FKHA": {
+      "file": "chunk-BPR5FKHA.js"
+    },
+    "chunk-MCRTTSQM": {
+      "file": "chunk-MCRTTSQM.js"
+    },
+    "chunk-7GSU6GUY": {
+      "file": "chunk-7GSU6GUY.js"
+    },
+    "chunk-WK3LKX3O": {
+      "file": "chunk-WK3LKX3O.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}

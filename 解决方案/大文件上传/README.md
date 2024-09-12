@@ -1,3 +1,17 @@
+<!--
+ * @Author: cirs
+ * @Date: 2024-09-09 12:44:04
+ * @LastEditors: cirs
+ * @LastEditTime: 2024-09-11 13:35:27
+ * @FilePath: /notes/解决方案/大文件上传/README.md
+ * @Description:
+ *
+-->
+
+1.创建项目 `npx create-react-app uploadfile-client` `npm install @ant-design/icons antd axios`
+
+2.绘制页面 `src/index.js` `src/FileUploader/index.js` 3.拖入文件 `src/FileUploader/index.js` `src/FileUploader/useDrag.js` 4.检查并预览文件 `src/FileUploader/index.js` `src/FileUploader/useDrag.js` 5.分片上传 6.上传进度 7.秒传 8.暂停上传 9.断点续传 10.webwork 处理分片以及获取 hash filename
+
 ## 处理文件的上传
 
 - 为了提升性能，在上传一个大文件的时候，可以把一个大文件切成多个小文件，然后并行上传
@@ -9,6 +23,7 @@
   - 并发量控制，在同一时间内最多并行上传 5 个分片
   - 切片数量动态调整，自适应
   - 合并之后做一下文件校验，保证文件未被篡改
+  - 并发控制
 
 - 想实现秒传的功能，需要服务器提供一个接口，返回已经上传的分片和大小
 
